@@ -43,7 +43,10 @@ const Header = () => {
 
             {/* about me  */}
             <div>
-                
+                <h2 className='text-xl my-[40px] text-black relative inline-block'>about me
+                    <span className="absolute left-0 -bottom-0.5 h-[0.5px] bg-black transition-all duration-300 w-[50%]"></span>
+                </h2>
+                <p className='leading-loose text-secondary-text max-w-[600px] mx-auto'>Hi, I'm Emon Paul, a 23-year-old Fronted Web Developer from Bangladesh with a Passion for Coding and Technology. I have a keen interest in Web Applications, and Mobile Applications. In my free time, I enjoy working on Personal Projects, Contributing to open-source, and exploring new Programming Languages. I'm always looking for new challenges and opportunities to collaborate with other developers. If you're interested in working together or just want to chat about tech, feel free to reach out. I love connecting with fellow developers and sharing knowledge, so don't hesitate to drop me a message.</p>
             </div>
 
         </>

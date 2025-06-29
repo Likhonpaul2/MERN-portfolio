@@ -8,10 +8,11 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <DarkModeBtn/>
+      
+      <Navbar />
+      <DarkModeBtn />
       {/* <BackToTopBtn/> */}
-      <Header/>
+      <Header />
     </>
   )
 }
