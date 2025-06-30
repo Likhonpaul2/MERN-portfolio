@@ -1,8 +1,14 @@
 import './App.css'
 import BackToTopBtn from './components/BackToTopBtn'
+import Contact from './components/Contact'
 import DarkModeBtn from './components/DarkmodeBtn'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
+
+import 'aos/dist/aos.css';
 
 function App() {
 
@@ -10,9 +16,13 @@ function App() {
     <>
       
       <Navbar />
-      <DarkModeBtn />
+      {/* <DarkModeBtn /> */}
       {/* <BackToTopBtn/> */}
-      <Header />
+      <Header/>
+      <Projects/>
+      <Skills/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }

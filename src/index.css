@@ -11,6 +11,9 @@
   --accent-color: #000000;
   --bg-color: #ffffff;
 }
+*{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Metropolis", -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 400;
