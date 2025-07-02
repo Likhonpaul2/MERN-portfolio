@@ -41,9 +41,9 @@ const Projects = () => {
     return (
         <div id='projects'>
             <div>
-                <h2 className='text-xl my-[40px] text-black relative inline-block font-bold' data-aos="fade-up">
+                <h2 className='text-xl my-[40px] text-black dark:text-dark-primary-text relative inline-block font-bold' data-aos="fade-up">
                     Projects
-                    <span className="absolute left-0 -bottom-0.5 h-[0.5px] bg-black transition-all duration-300 w-[50%]"></span>
+                    <span className="absolute left-0 -bottom-0.5 h-[0.5px] bg-black dark:bg-white transition-all duration-300 w-[50%]"></span>
                 </h2>
 
                 <div className='grid gap-[50px]'>
@@ -57,7 +57,7 @@ const Projects = () => {
                             >
                                 <div className='justify-between flex mb-[15px] gap-4'>
                                     <div className="">
-                                        <a href={project.repo} target='_blank' rel="noreferrer" className='text-xl font-bold text-primary-text duration-300 hover:text-secondary-text '>
+                                        <a href={project.repo} target='_blank' rel="noreferrer" className='text-xl font-bold text-primary-text dark:text-dark-primary-text duration-300 hover:text-secondary-text '>
                                             {project.name}
                                         </a>
                                     </div>

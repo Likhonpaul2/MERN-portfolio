@@ -36,16 +36,16 @@ const Skills = () => {
 
     return (
         <div id='skills' className="py-10 px-4 max-w-6xl mx-auto">
-            <h2 className='text-xl my-[40px] text-black relative inline-block font-bold' data-aos="fade-up">
+            <h2 className='text-xl my-[40px] text-black dark:text-dark-primary-text relative inline-block font-bold' data-aos="fade-up">
                 Skills
-                <span className="absolute left-0 -bottom-0.5 h-[0.5px] bg-black transition-all duration-300 w-[50%]"></span>
+                <span className="absolute left-0 -bottom-0.5 h-[0.5px] dark:bg-white bg-black transition-all duration-300 w-[50%]"></span>
             </h2>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
                 {skills.map((skill, index) => (
                     <div
                         key={index}
-                        className="bg-[#111111] rounded-xl text-white flex flex-col items-center justify-center py-6 shadow-md transition hover:scale-105"
+                        className="bg-[#111111]  rounded-xl text-white flex flex-col items-center justify-center py-6 shadow-md transition hover:scale-105 dark:border dark:border-dark-border-color"
                         data-aos="zoom-in"
                         data-aos-delay={index * 100}
                     >

@@ -10,9 +10,22 @@
   --hover-bg: #f5f5f5;
   --accent-color: #000000;
   --bg-color: #ffffff;
+
+  --dark-bg-color: #121212;
+  --dark-primary-text: #ffffff;
 }
-*{
+body.dark {
+  --primary-text: #ffffff;
+  --secondary-text: #aaaaaa;
+  --tertiary-text: #777777;
+  --border-color: #333333;
+  --hover-bg: #222222;
+  --accent-color: #ffffff;
+  --bg-color: #121212;
+}
+* {
   scroll-behavior: smooth;
+  cursor: none;
 }
 body {
   font-family: "Metropolis", -apple-system, BlinkMacSystemFont, sans-serif;
@@ -28,4 +41,19 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
   background-size: 20px 20px;
+  
+  ::selection {
+    background-color: #f97316; /* Tailwind's orange-500 */
+    color: #fff;
+  }
+}
+
+body.dark {
+  background-color: var(--dark-bg-color);
+
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 }

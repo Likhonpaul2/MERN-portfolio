@@ -31,11 +31,11 @@ const Contact = () => {
         <>
             <div id='contact'>
                 <h2
-                    className='text-xl my-[40px] text-black relative inline-block font-bold'
+                    className='text-xl my-[40px] text-black dark:text-dark-primary-text relative inline-block font-bold'
                     data-aos="fade-up"
                 >
                     Contact
-                    <span className="absolute left-0 -bottom-0.5 h-[0.5px] bg-black transition-all duration-300 w-[50%]"></span>
+                    <span className="absolute left-0 -bottom-0.5 h-[0.5px] bg-black dark:bg-white transition-all duration-300 w-[50%]"></span>
                 </h2>
 
                 <div className="py-16 px-4 max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-start">
@@ -97,7 +97,7 @@ const Contact = () => {
                         />
                         <button
                             type="submit"
-                            className="w-full bg-black text-white py-2 rounded hover:bg-gray-900 transition-all"
+                            className="w-full bg-black  text-white py-2 rounded hover:bg-gray-900 transition-all dark:border dark:border-dark-border-color"
                         >
                             send message
                         </button>

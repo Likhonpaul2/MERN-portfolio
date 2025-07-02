@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -15,6 +16,15 @@ export default {
         'hover-bg': "#f5f5f5",
         'accent-color': "#000000",
         'bg-color': "#ffffff",
+
+        // dark mood color 
+        "dark-primary-text": "#ffffff",
+        "dark-secondary-text": "#aaaaaa",
+        "dark-tertiary-text": "#777777",
+        "dark-border-color": "#333333",
+        "dark-hover-bg": "#222222",
+        "dark-accent-color": "#ffffff",
+        "dark-bg-color": "#121212"
       },
     },
   },
